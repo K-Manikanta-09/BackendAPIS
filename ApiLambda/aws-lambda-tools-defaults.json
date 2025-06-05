@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "profile" : "OhoIndia",
+    "configuration" : "Release",
+    "framework"     : "net8.0",
+    "function-name" : "api-lambda",
+    "package-type"  : "Zip",
+    "function-handler" : "ApiLambda",
+    "function-memory-size" : 256,
+    "function-role"        : "arn:aws:iam::339713033084:role/lambda_exec_api-lambda",
+    "function-timeout"     : 10,
+    "function-runtime"     : "provided",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : ""
+}
